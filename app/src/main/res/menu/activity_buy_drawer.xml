@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/mobiletablet"
+            android:icon="@drawable/mobile"
+            android:title="Mobile and Tablets" />
+        <item
+            android:id="@+id/baby"
+            android:icon="@drawable/baby"
+            android:title="Baby" />
+        <item
+            android:id="@+id/art"
+            android:icon="@drawable/art"
+            android:title="Art,Crafts and Collections" />
+        <item
+            android:id="@+id/book"
+            android:icon="@drawable/book"
+            android:title="Books" />
+        <item
+            android:id="@+id/car"
+            android:icon="@drawable/car"
+            android:title="Car Electronics and Accessories"/>
+        <item
+        android:id="@+id/clothes"
+        android:icon="@drawable/cloth"
+        android:title="Clothing and Accessories" />
+        <item
+        android:id="@+id/computers"
+        android:icon="@drawable/computer"
+        android:title="Computers and Networking" />
+        <item
+        android:id="@+id/electronics"
+        android:icon="@drawable/elect"
+        android:title="Electronics" />
+        <item
+            android:id="@+id/game"
+            android:icon="@drawable/games"
+            android:title="Games and Toys" />
+        <item
+        android:id="@+id/healthy"
+        android:icon="@drawable/health"
+        android:title="Health and Beauty" />
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/kitchenpng"
+            android:title="Home,Kitchen and Garden" />
+
+        <item
+        android:id="@+id/bags"
+        android:icon="@drawable/shoes"
+        android:title="Shoes and Bags" />
+        <item
+        android:id="@+id/sport"
+        android:icon="@drawable/sports"
+        android:title="Sports and Outdoors" />
+        <item
+        android:id="@+id/jewllery"
+        android:icon="@drawable/jewlerry"
+        android:title="Jewelry and Accessories" />
+        <item
+            android:id="@+id/watches"
+            android:icon="@drawable/watch"
+            android:title="Watches and Accessories" />
+        <item
+            android:id="@+id/offices"
+            android:icon="@drawable/office"
+            android:title="Office and Supplies" />
+        <item
+            android:id="@+id/allcat"
+            android:icon="@drawable/catall"
+            android:title="All Categories" />
+
+    </group>
+
+    <item android:title="Accounting">
+        <menu>
+            <item
+                android:id="@+id/profileid"
+                android:icon="@drawable/profile"
+                android:title="My Profile" />
+            <item
+                android:id="@+id/mycart"
+                android:icon="@drawable/cart"
+                android:title="MyCart" />
+        </menu>
+    </item>
+
+</menu>

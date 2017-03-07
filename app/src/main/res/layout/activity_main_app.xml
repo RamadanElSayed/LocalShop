@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    android:weightSum="5"
+    android:background="#efd"
+    android:paddingRight="10dp"
+    android:paddingTop="5dp"
+    tools:context="com.example.ramadanel_sayed.localshop.MainApp">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="fitXY"
+        android:layout_weight="2"
+        android:id="@+id/imageView6"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Buy Product"
+        android:layout_weight="1"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:background="#5E5A80"
+        android:textSize="15sp"
+        android:id="@+id/buttonBuy" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#FFFFFF"
+        android:layout_weight="1"
+
+        android:text="Sell Product"
+        android:textStyle="bold"
+        android:background="#667C26"
+
+        android:textSize="15sp"
+        android:id="@+id/buttonSell" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#FFFFFF"
+        android:layout_weight="1"
+
+        android:text="Show Orders"
+        android:textStyle="bold"
+        android:background="#5E5A80"
+
+        android:textSize="15sp"
+        android:id="@+id/showorders" />
+</LinearLayout>

@@ -1,0 +1,40 @@
+<resources>
+    <string name="select_pictureone">Select Picture</string>
+    <string name="select_picturetwo">Select Picture</string>
+    <string name="select_picturethree">Select Picture</string>
+    <string name="app_name">LocalShop</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_buy">BuyActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string-array name="mobilearray">
+        <item>New Phone</item>
+        <item>Used Phone</item>
+    </string-array>
+    <string-array name="categoryname">
+        <item>New Product</item>
+        <item>Used Product</item>
+    </string-array>
+    <string-array name="othercategory">
+        <item>Mobile and Tablets</item>
+        <item>Baby</item>
+        <item>Art,Crafts and Collections</item>
+        <item>Books</item>
+        <item>Car Electronics and Accessories</item>
+        <item>Clothing and Accessories</item>
+        <item>Computers and Networking</item>
+        <item>Electronics</item>
+        <item>Games and Toys</item>
+        <item>Health and Beauty</item>
+        <item>Home,Kitchen and Garden</item>
+        <item>Shoes and Bags</item>
+        <item>Sports and Outdoors</item>
+        <item>Jewelry and Accessories</item>
+        <item>Watches and Accessories</item>
+        <item>Office and Supplies</item>
+
+    </string-array>
+</resources>
